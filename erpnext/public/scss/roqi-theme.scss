@@ -1,0 +1,92 @@
+// ROQI ERP Theme - Yellow and Black Color Scheme
+
+// Primary color override - Soft Yellow
+:root {
+	--primary: #F5C842;
+	--primary-dark: #D4A836;
+	--primary-light: #F9D973;
+	--primary-hover: #E6B82E;
+}
+
+// Button styles
+.btn-primary {
+	background-color: var(--primary);
+	border-color: var(--primary);
+	color: #000000;
+	
+	&:hover, &:focus {
+		background-color: var(--primary-hover);
+		border-color: var(--primary-hover);
+		color: #000000;
+	}
+	
+	&:active {
+		background-color: var(--primary-dark);
+		border-color: var(--primary-dark);
+	}
+}
+
+// Links
+a {
+	color: var(--primary);
+	
+	&:hover {
+		color: var(--primary-hover);
+	}
+}
+
+// Navigation and sidebar accents
+.navbar-brand, .app-logo {
+	color: #000000;
+}
+
+// Primary action buttons
+.primary-action {
+	background-color: var(--primary);
+	color: #000000;
+	
+	&:hover {
+		background-color: var(--primary-hover);
+	}
+}
+
+// Selected items
+.selected, .active {
+	background-color: var(--primary-light) !important;
+	color: #000000;
+}
+
+// Checkboxes and radio buttons when checked
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+	accent-color: var(--primary);
+}
+
+// Progress bars
+.progress-bar {
+	background-color: var(--primary);
+}
+
+// Badges
+.badge-primary {
+	background-color: var(--primary);
+	color: #000000;
+}
+
+// Text with primary color
+.text-primary {
+	color: var(--primary) !important;
+}
+
+// Border primary
+.border-primary {
+	border-color: var(--primary) !important;
+}
+
+// Background primary
+.bg-primary {
+	background-color: var(--primary) !important;
+	color: #000000;
+}
+
+

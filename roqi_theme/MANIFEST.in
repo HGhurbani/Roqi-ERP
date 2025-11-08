@@ -1,0 +1,6 @@
+recursive-include roqi_theme *.json *.css *.js *.html *.md *.txt *.png *.svg *.jpg *.jpeg *.ico *.scss
+recursive-include roqi_theme/translations *.csv
+recursive-exclude roqi_theme *.pyc
+
+
+

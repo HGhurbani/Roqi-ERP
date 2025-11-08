@@ -1,0 +1,23 @@
+[project]
+name = "roqi_theme"
+description = "ROQI ERP theme app: yellow/black branding for ERPNext"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version"]
+authors = [{name = "Your Name", email = "you@example.com"}]
+dependencies = []
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.frappe.app]
+name = "roqi_theme"
+title = "ROQI Theme"
+publisher = "Your Name"
+email = "you@example.com"
+license = "MIT"
+source_link = "https://github.com/youruser/roqi_theme"
+
+
+
